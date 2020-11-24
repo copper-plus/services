@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, com.copper.plus.domain.User.class.getName());
             createCache(cm, com.copper.plus.domain.Authority.class.getName());
             createCache(cm, com.copper.plus.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.copper.plus.domain.Supplier.class.getName());
+            createCache(cm, com.copper.plus.domain.Consumer.class.getName());
+            createCache(cm, com.copper.plus.domain.Delivery.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

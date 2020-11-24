@@ -1,0 +1,28 @@
+
+entity Supplier {
+	name String,
+    status Boolean,
+    rating Long,
+    details String
+}
+
+entity Consumer {
+	name String,
+    status Boolean,
+    rating Long,
+    details String
+}
+
+entity Delivery {
+	name String,
+    status Boolean,
+    rating Long,
+    details String
+}
+
+
+
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
